@@ -1,20 +1,19 @@
 body{
   text-align: center;
   background-color: #EAD7CD;
+  margin: 0;
+  padding: 0;
+
 }
 
 h1{
   color: black;
 }
 
-
-
-
 div{
-  margin: 10px;
+  /* margin: 10px; */
   width: auto;
   height: auto;
-
 }
 
 img{
@@ -29,6 +28,10 @@ img{
   height: auto;
   display:flex;
   justify-content: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -39,22 +42,35 @@ img{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
+  margin: 10px;
+
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #CA9A81;
   color: white;
-  color: #DEA093;
+  margin: 10px;
 }
 
+.accentbartop{
+  background-color: black;
+  height: 20px;
+  width: 100%;
+}
 
+.accentbarbottom{
+  background-color: black;
+  height: 20px;
+  width: 100%;
+}
 .photos{
   /* background-color: #6187B8; */
 }
